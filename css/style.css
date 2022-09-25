@@ -1,0 +1,67 @@
+body {
+  width: 100vw;
+  height: 98vh; }
+
+header {
+  height: 15vh;
+  background: linear-gradient(180deg, #007991, #63d1b0); }
+  header .row div a #img-logo {
+    margin-top: 15px !important;
+    width: 70px !important;
+    height: 70px !important; }
+  header div #titulo {
+    font-size: 24px !important;
+    margin-top: 15px;
+    color: white !important; }
+  header div nav .container-fluid #navbarNav #menu {
+    font-size: 15PX !important;
+    margin-top: 30px !important;
+    margin-left: 100px !important; }
+    header div nav .container-fluid #navbarNav #menu .nav-item .nav-link {
+      color: #4b044d !important; }
+      header div nav .container-fluid #navbarNav #menu .nav-item .nav-link:hover {
+        background: rgba(228, 116, 239, 0.3);
+        box-shadow: 0 1px 20px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        border-radius: 7px;
+        border: 1px solid rgba(255, 255, 255, 0.18); }
+
+#footer {
+  height: 5vh;
+  background: linear-gradient(180deg, #007991, #63d1b0);
+  margin-top: 20px; }
+  #footer a .redes-sociales {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px; }
+
+#main {
+  height: 80vh; }
+
+.container-flow #carouselExampleControls .carousel-inner {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 270px; }
+  .container-flow #carouselExampleControls .carousel-inner .carousel-item .d-block {
+    height: 270px; }
+
+.container-flow .row .section .texto {
+  font-size: 20px !important;
+  margin-top: 20px;
+  margin-left: 30px; }
+
+.container-flow .row .section .img-sect-main {
+  width: 300px !important;
+  height: 240px !important;
+  margin-top: 40px; }
+
+.container-flow .row .article {
+  background: linear-gradient(292deg, rgba(7, 104, 247, 0.568987) 4%, rgba(196, 7, 247, 0.65022) 8%, rgba(236, 242, 79, 0.793077) 31%, rgba(231, 107, 107, 0.907923) 46%, rgba(30, 225, 240, 0.905122) 55%, rgba(122, 240, 98, 0.770668) 69%, rgba(220, 30, 240, 0.65022) 94%, rgba(240, 30, 30, 0.591396) 97%);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .container-flow .row .article .img-art {
+    width: 300px !important;
+    height: 229px !important;
+    margin-bottom: 10px; }

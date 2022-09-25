@@ -1,0 +1,13 @@
+#footer{
+    height: 5vh;
+    background: map-get($gradientes, "header-footer");
+    margin-top: 20px;
+    a{
+        .redes-sociales{
+            width: 25px;
+            height: 25px;
+            margin-top: 5px;
+        }
+    }
+}
+

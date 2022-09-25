@@ -1,0 +1,54 @@
+
+body{
+    width: 100vw;
+    height: 98vh;
+}
+
+header {
+    height: 15vh;
+    background: map-get($gradientes, "header-footer");
+.row {
+        div {
+            a {
+                #img-logo {
+                    margin-top: 15px !important;
+                    width: 70px !important;
+                    height: 70px !important;
+                }
+            }
+        }
+    }
+div {
+ #titulo {
+            font-size: 24px !important;
+            margin-top: 15px;
+            color:map-get($paleta-color, "titulo") !important;
+        }
+    }
+div {
+        nav {
+            .container-fluid {
+            #navbarNav {
+            #menu {
+                        font-size: 15PX !important;
+                        margin-top: 30px !important;
+                        margin-left: 100px !important;
+            .nav-item {
+            .nav-link {
+                color:map-get($paleta-color, "menu") !important;
+            &:hover {
+                        background: rgba(228, 116, 239, 0.3);
+                        box-shadow: 0 1px 20px 0 rgba(31, 38, 135, 0.37);
+                        backdrop-filter: blur(1px);
+                        -webkit-backdrop-filter: blur(1px);
+                        border-radius: 7px;
+                        border: 1px solid rgba(255, 255, 255, 0.18);
+                    }
+                }
+            }
+        }
+    }
+}
+        }
+    }
+}
